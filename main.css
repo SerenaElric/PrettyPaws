@@ -13,6 +13,25 @@ body{
     display: block;
     margin: 0 auto;
 }
+
+.cart{
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+}
+
+.cart p{
+    color:#EF5C86;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.cart a{
+    color: #EF5C86;
+    display: block;
+    text-decoration: none;
+}
 .navbar ul{
     list-style-type: none;
     background-color: #F47B84;
@@ -86,12 +105,19 @@ body{
     background-color: #a03d59;
 }
 
+
+
 .coming-soon{
-    background-color: #93C5E8;
+    background: 
+    linear-gradient(rgba(177, 222, 255, 0.521),rgba(147, 197, 232, 0.425)),
+    url(assets/Apple\ paws.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #fff;
     margin: 50px auto;
-    height: 200px;
-    width: 500px;
+    height: 600px;
+    width: 800px;
     text-align: center;
     padding: 50px;
     border-radius: 10px;
@@ -103,6 +129,7 @@ body{
     align-items: center;
     font-family: "Baloo Thambi", cursive;
     margin-top: 100px;
+    font-size: 50px;
 }
 
 .paws-ears {
@@ -180,10 +207,16 @@ body{
 
 footer{
     background-color: #F47B84;
+    color: #fff;
     height: 300px;
-    display: flex;
-    justify-content: space-around;
+
     margin-top: 100px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -192,6 +225,8 @@ footer ul{
     list-style-type: none;
     padding: 0px;
     overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 footer a{
     color: #fff;
@@ -206,5 +241,18 @@ footer li{
     align-items: center;
     font-family: "Baloo Thambi", cursive;
     font-weight: bold;
+    font-size: 25px;
+    padding: 0 15px;
+    margin-bottom: 16px;
+}
+
+footer h3{
+    align-items: center;
     font-size: 15px;
+    margin-top: 20px;
+}
+
+footer img{
+    max-width: 200px;
+    height: fit-content;
 }
