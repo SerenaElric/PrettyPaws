@@ -1,0 +1,33 @@
+body{
+    background-color: #FBE4F4;
+}
+.logo img{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #F47B84;
+    padding: 0px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #b45d63;
+}
+.navbar li{
+    float: left;
+    font-family: "Baloo Thambi", cursive;
+    font-weight: bold;
+    font-size: 15px;
+}
