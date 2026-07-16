@@ -256,3 +256,44 @@ footer img{
     max-width: 200px;
     height: fit-content;
 }
+
+/* Commission Page */
+
+.commission-banner {
+    background: 
+    linear-gradient(rgba(85, 34, 76, 0.5), rgba(161, 64, 145, 0.5)), 
+    url(assets/Commission\ Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 100px 20px;
+    margin-top: 100px;
+    font-family: "Baloo Thambi", cursive;
+}
+
+.banner-content{
+    max-width: 600px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-content h1{
+    font-size: 65px;
+}
+
+.form{
+    background-color: #fff;
+    margin: 50px 50px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.form-content{
+    border: 5px solid #EF5C86;
+    border-radius: 15px;
+    padding: 50px;
+}
