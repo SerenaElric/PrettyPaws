@@ -7,6 +7,20 @@
 body{
     background-color: #FBE4F4;
 }
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
+.loading h1{
+    text-align: center;
+    color: #EF5C86;
+    font-family: "Baloo Thambi", cursive;
+}
+
 .logo img{
     width: 200px;
     height: auto;
@@ -297,3 +311,71 @@ footer img{
     border-radius: 15px;
     padding: 50px;
 }
+
+.form h1{
+    font-family: "Baloo Thambi", cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+hr{
+    color: #EF5C86;
+}
+
+label{
+    display: block;
+    margin-top: 1em;
+    font-family: "Baloo Thambi", cursive;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input{
+    padding: .5em;
+    border-radius: 5px;
+    border: 1px solid #803e42c5;
+    max-width: auto;
+}
+
+textarea{
+    min-height: 100px;
+    min-width: 100%;
+    padding: 5px;
+}
+
+select{
+    background-color: #F47B84;
+    color: #fff;
+    padding: 8px;
+    min-height: 2em;
+    min-width: 60%;
+    border: none;
+    border-radius: 5px;
+}
+
+input{
+    margin-top: 10px;
+}
+
+input[type=submit] {
+    background-color: #EF5C86;
+    color: #fff;
+    padding: 15px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-family: "Baloo Thambi", cursive;
+    font-weight: bold;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type=submit]:hover {
+    background-color:#ac415f; 
+}
+
+input[type=file] {
+    border: none;
+    margin-bottom: 50px;
+}
+

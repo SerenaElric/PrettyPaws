@@ -39,7 +39,8 @@
         <div class="form-content">
 
             <form action="#" method="post" enctype="multipart/form-data">
-
+                <h1>Commission Details</h1>
+                <hr>
                 <label for="commission-type"><h2>Commission Type</h2></br>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod  tempor incididunt ut labore et dolore 
@@ -54,7 +55,7 @@
                     <option value="full fursuit">Full Fursuit</option>
                 </select>
                 <br>
-                <label for="payment">Payment Plan<br>
+                <label for="payment"><h3>Payment Plan</h3><br>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod  tempor incididunt ut labore et dolore 
                     magna aliqua.  <br></label>
@@ -64,18 +65,19 @@
                     <option value="full">In Full</option>
                 </select>
                 <br>
-                <label for="notes">Commission Notes<br>Lorem ipsum dolor sit amet, 
+                <label for="notes"><h3>Notes</h3><br>Lorem ipsum dolor sit amet, 
                     consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore 
                     et dolore magna aliqua. Ut enim ad minim.</label><br>
                     <textarea id="notes" rows="3" cols="30"></textarea>
                 <br>
-                <label for="reference">Reference Image<br>Lorem ipsum dolor sit amet, 
+                <label for="reference"><h3>Reference Image</h3><br>Lorem ipsum dolor sit amet, 
                     consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore 
-                    et dolore magna aliqua. Ut enim ad minim.</label>
+                    et dolore magna aliqua. Ut enim ad minim.</label><br>
 
                     <input type="file" id="reference" accept="image/png, image/jpeg">
                 <br>
             <h2>Contact Info</h2>
+            <hr>
             <label for="name">Name</label>
             <br>
                     <input type="text" id="name" placeholder="First Name" required>
@@ -103,7 +105,7 @@
                     <input type="text" id="city" required>
                     <BR></BR>
             <label for="state">State</label><br>
-                    <select>
+                    <select class="states">
                     <option>AL</option>
                     <option>AK</option>
                     <option>AZ</option>
@@ -163,7 +165,7 @@
                     <input type="text" id="zip" maxlength="5" minlength="5">
             
                     <br>
-            <input type="submit">
+            <input type="submit" id="submit" value="Submit">
 
             </form>
 
