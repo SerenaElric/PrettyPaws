@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     <link rel="stylesheet" href="main.css">
-    <script src="app.js"></script>
+
 <script src="https://kit.fontawesome.com/f8e1c05a97.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -28,10 +28,67 @@
         </ul>
 
     </nav>
-    
-        <div class="loading">
-        <img src="assets/Chili blossom.gif" alt="loading" style="width: 500px; height: auto;">
-            <h1>Cuteness Underway!</h1>
+    <div class="gallery-title">
+    <h1>Gallery</h1>
+    </div>
+
+    <div class="gallery-container">
+        <div class="images">
+            <div class="image" onclick="showImage(this)">
+             <img src="assets/Gallery001.JPG" alt="">
+            </div>
+
+            <div class="image" onclick="showImage(this)">
+             <img src="assets/Gallery002.JPG" alt="">
+            </div>
+
+            <div class="image" onclick="showImage(this)">
+             <img src="assets/Gallery003.JPG" alt="">
+            </div>
+
+            <div class="image" onclick="showImage(this)">
+             <img src="assets/Gallery004.JPG" alt="">
+            </div>
+
+            <div class="image" onclick="showImage(this)">
+             <img src="assets/Gallery005.JPG" alt="">
+            </div>
+
+            <div class="image" onclick="showImage(this)">
+             <img src="assets/Gallery006.JPG" alt="">
+            </div>
+
+            <div class="image" onclick="showImage(this)">
+             <img src="assets/Gallery007.JPG" alt="">
+            </div>
+
+            <div class="image" onclick="showImage(this)">
+             <img src="assets/Gallery008.jpg" alt="">
+            </div>
+            
+            <div class="image" onclick="showImage(this)">
+             <img src="assets/Badge.png" alt="">
+            </div>
+        </div>
+
+        <div class="light-box">
+                <div class="image">
+                    <img src="assets/Gallery001.JPG" alt="">
+
+                    <div class="previous-btn">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class="next-btn">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                <div class="options">
+                    <div class="close-btn">
+                        <i class="fa-solid fa-times"></i>
+                    </div>
+                </div>
+                </div>
+
+        </div>
     </div>
 
 
@@ -41,6 +98,7 @@
             <li> <a href="contact.html">Contact Us</a></li>
             <li> <a href="about.html">About Us</a></li>
             <li> <a href="faq.html">FAQs</a></li>
+            <li> <a href="termsofservice.html">Trems of Service</a></li>
         </ul>
 
         <img src="assets/Payment.png">
@@ -55,6 +113,6 @@
 
     </footer>
 
-
+    <script src="app.js"></script>
 </body>
 </html>

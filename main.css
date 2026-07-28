@@ -271,6 +271,112 @@ footer img{
     height: fit-content;
 }
 
+/* Gallery Page */
+
+.gallery-title{
+    background: 
+    linear-gradient(rgba(85, 34, 76, 0.5), rgba(161, 64, 145, 0.5));
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 5px solid #fff;
+}
+
+.gallery-title h1{
+    font-family: "Baloo Thambi", cursive;
+    font-size: 60px; 
+    text-align: center;
+    color: #fff;
+}
+
+.gallery-container{
+    margin: 50px;
+}
+
+.gallery-container .images{
+    max-width: 800px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 8px;
+}
+
+.gallery-container .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-container .images .image{
+    cursor: pointer;
+}
+
+.gallery-container .light-box{
+    position: fixed;
+    top: -100%;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background:rgba(85, 34, 76, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 400ms;
+}
+
+.gallery-container .light-box.active{
+    top: 0;
+}
+
+.gallery-container .light-box img{
+    height: 80vh;
+    border-radius: 10px;
+    border: 10px solid white;
+}
+
+.gallery-container .light-box .next-btn,
+.gallery-container .light-box .previous-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #fff;
+    padding: 8px 16px;
+    background: #F47B84;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px -4px
+    rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.gallery-container .light-box .next-btn{
+    right: 650px;
+}
+
+.gallery-container .light-box .previous-btn{
+    left: 650px;
+}
+
+.gallery-container .light-box .options{
+    position: fixed;
+    top: 70px;
+    right: 700px;
+    background: #F47B84;
+    color: #fff;
+    display: none;
+    align-items: center;
+    font-size: 28px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px -4px
+    rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.gallery-container .light-box.active .options{
+    display: flex;
+}
+
 /* Commission Page */
 
 .commission-banner {
@@ -377,5 +483,26 @@ input[type=submit]:hover {
 input[type=file] {
     border: none;
     margin-bottom: 50px;
+}
+
+
+.terms-container{
+    background-color: #fff;
+    font-family: "Baloo Thambi", cursive;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.trems-header h1{
+    font-size: 65px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.terms-container .terms-content{
+    border-radius: 20px;
+    border: 10px solid #EF5C86;
+    padding: 80px;
 }
 
