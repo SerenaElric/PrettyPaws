@@ -405,6 +405,10 @@ footer img{
     font-size: 65px;
 }
 
+.banner-content a{
+    color:#EF5C86;
+}
+
 .form{
     background-color: #fff;
     margin: 50px 50px;
