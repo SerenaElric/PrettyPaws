@@ -6,6 +6,7 @@
 
 body{
     background-color: #FBE4F4;
+    font-family: "Baloo Thambi", cursive;
 }
 
 .loading {
@@ -144,6 +145,61 @@ body{
     font-family: "Baloo Thambi", cursive;
     margin-top: 100px;
     font-size: 50px;
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background: 
+    linear-gradient(rgba(85, 34, 76, 0.5), rgba(161, 64, 145, 0.5));
+    padding: 150px;
+}
+
+#newsletter h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+#newsletter p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #a03d59;
+}
+
+#newsletter input{
+    height: 40px;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px soild transparent;
+    border-radius: 4px;
+    outline: none;
+}
+
+#newsletter button{
+    background-color: #EF5C86;
+    color: #fff;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    font-family: "Baloo Thambi", cursive;
+    font-weight: bold;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+}
+
+#newsletter button:hover{
+    background-color: #a03d59;
+}
+
+#newsletter .news-form{
+    display: flex;
+    width: 40%;
 }
 
 .paws-ears {
@@ -390,9 +446,14 @@ footer img{
     justify-content: center;
     align-items: center;
     height: 500px;
-    padding: 100px 20px;
-    margin-top: 100px;
     font-family: "Baloo Thambi", cursive;
+    min-height: 300px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 5px solid #fff;
 }
 
 .banner-content{
@@ -414,6 +475,7 @@ footer img{
     margin: 50px 50px;
     padding: 50px;
     border-radius: 10px;
+    margin-top: 200px;
 }
 
 .form-content{
@@ -489,6 +551,8 @@ input[type=file] {
     margin-bottom: 50px;
 }
 
+/* Terms of Service Page */
+
 
 .terms-container{
     background-color: #fff;
@@ -508,5 +572,99 @@ input[type=file] {
     border-radius: 20px;
     border: 10px solid #EF5C86;
     padding: 80px;
+}
+
+.terms-container .terms-content ul{
+    margin-left: 50px;
+}
+
+/* Shop Page */
+
+.hero-pro{
+    background: 
+    linear-gradient(rgba(85, 34, 76, 0.5), rgba(161, 64, 145, 0.5)), 
+    url(assets/Shop\ Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 5px solid #fff;
+}
+
+#product1{
+    text-align: center;
+}
+
+#product1 h2{
+    font-size: 55px;
+    margin: 30px;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #EF5C86;
+    background-color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    font-size: 15px;
+}
+
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #a03d59;
+}
+
+#product1 .pro .cart{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #a03d59;
+    font-weight: 500;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
 }
 
