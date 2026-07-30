@@ -604,6 +604,7 @@ input[type=file] {
 
 #product1{
     text-align: center;
+    margin: 100px;
 }
 
 #product1 h2{
@@ -614,6 +615,7 @@ input[type=file] {
     padding: 30px;
     margin-top: 50px;
     margin-bottom: 50px;
+    border-radius: 10px;
 }
 
 
