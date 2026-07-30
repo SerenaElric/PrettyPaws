@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="main.css">
-    <script src="app.js"></script>
-<script src="https://kit.fontawesome.com/f8e1c05a97.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f8e1c05a97.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -28,6 +27,35 @@
         </ul>
 
     </nav>
+
+        <div class="contact-container">
+            <div class="contact-form">
+                <div class="contact-info">
+                    <h3 class="title">We’re excited to hear from you!</h3>
+                    <p class="text"> Whether you have questions about our custom fursuits, want to discuss your design 
+                        ideas, or need assistance with an order, our team is here to help. We strive to respond to all 
+                        inquiries as quickly as possible, so don’t hesitate to get in touch. Let’s bring your fursuit 
+                        vision to life!</p>
+                </div>
+
+                    <form action="contact.html">
+                        <h3 class="title">Contact Us</h3>
+                        <div class="input-container">
+                            <input type="text" name="name" class="contact-input">
+                            <label for="">Name</label>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" name="email" class="contact-input">
+                            <label for="">Email</label>
+                        </div>
+                        <div class="input-container textarea">
+                            <textarea name="message" class="contact-input"></textarea>
+                            <label for="">Message</label>
+                        </div>
+                        <input type="submit" value="Send" class="btn" />
+                    </form>
+            </div>
+        </div>
     
 
 
@@ -40,7 +68,14 @@
             <li> <a href="termsofservice.html">Trems of Service</a></li>
         </ul>
 
-        <img src="assets/Payment.png">
+        <div class="pay-icons">
+             <i class="fa-brands fa-cc-paypal"></i>
+             <i class="fa-brands fa-cc-mastercard"></i>
+             <i class="fa-brands fa-cc-visa"></i>
+             <i class="fa-brands fa-cc-amex"></i>
+             <i class="fa-brands fa-cc-discover"></i>
+             <i class="fa-brands fa-apple-pay"></i>
+        </div>
 
         <ul class="footer-icons">
             <li><a href="https://www.instagram.com/prettypawprint/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
@@ -52,6 +87,6 @@
 
     </footer>
 
-
+    <script src="app.js"></script>
 </body>
 </html>

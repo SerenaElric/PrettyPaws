@@ -32,3 +32,5 @@ previousBtn.addEventListener("click", () => {
         showImage(currentImage);
     }
 });
+
+

@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Commission</title>
+    <title>Cart</title>
     <link rel="stylesheet" href="main.css">
-    <script src="app.js"></script>
+
 <script src="https://kit.fontawesome.com/f8e1c05a97.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -28,7 +28,70 @@
         </ul>
 
     </nav>
-    
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="assets/Ears001.webp" alt="Purple & Blue Cat Ears"></td>
+                    <td>Purple & Blue Cat Ears</td>
+                    <td>$65.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$65.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="assets/Ears002.webp" alt="Fox Ears"></td>
+                    <td>Fox Ears</td>
+                    <td>$65.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$65.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="assets/Paws006.jpg" alt="Dimond Black Paws"></td>
+                    <td>Dimond Black Paws</td>
+                    <td>$100.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$100.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="cart">
+        <div id="coupon">
+            
+        </div>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$230.00</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>$9.99</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$239.99</strong></td>
+                </tr>
+            </table>
+            <button>Proceed to checkout</button>
+        </div>
+    </section>
 
 
     <footer>
@@ -40,7 +103,14 @@
             <li> <a href="termsofservice.html">Trems of Service</a></li>
         </ul>
 
-        <img src="assets/Payment.png">
+        <div class="pay-icons">
+             <i class="fa-brands fa-cc-paypal"></i>
+             <i class="fa-brands fa-cc-mastercard"></i>
+             <i class="fa-brands fa-cc-visa"></i>
+             <i class="fa-brands fa-cc-amex"></i>
+             <i class="fa-brands fa-cc-discover"></i>
+             <i class="fa-brands fa-apple-pay"></i>
+        </div>
 
         <ul class="footer-icons">
             <li><a href="https://www.instagram.com/prettypawprint/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
@@ -52,6 +122,6 @@
 
     </footer>
 
-
+    <script src="app.js"></script>
 </body>
 </html>
